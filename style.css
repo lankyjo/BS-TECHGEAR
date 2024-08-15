@@ -1,0 +1,79 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --second-font: "Press Start 2P", system-ui;
+}
+.navbar-brand{
+    font-family: var(--second-font);
+}
+::-webkit-scrollbar{
+    display: none;
+}
+img{
+    border-radius: 20px;
+}
+header{
+    background: linear-gradient(180deg, #c4bdfd, #93acfc);
+}
+nav{
+    background: #c4bdfd;
+}
+.navbar-brand, .text-primary{
+    color: #0a58ca;
+    transition: color .5s !important;
+}
+.navbar-brand:hover{
+    color: #e8eeff;
+}
+.nav-link{
+    font-weight: 500;
+    margin-right: 15px;
+}
+.nav-item a:hover{
+    color: #0a58ca;
+}
+.nav-button a:hover{
+    color: #e8eeff;
+}
+.btn-primary{
+    background: #0a58ca !important;
+    border: none;
+    color: #fff;
+}
+.btn-primary:hover{
+    color: #e8eeff;
+    background: #2876ec !important;
+}
+img{
+    pointer-events: none;
+}
+.discover{
+    color: #0a58ca;
+    font-family: var(--second-font);
+}
+.bg-title{
+    font-family: var(--second-font);
+    color: #2876ec;
+}
+.card-text{
+    font-size: 17px;
+    font-weight: 200;
+}
+.bg-blue{
+    background: #2876ec;
+    color: #e8eeff;
+}
+i{
+    margin-bottom: 20px;
+}
+.accordion-button{
+    font-weight: 500;
+}
+.accordion-body{
+    font-size: 18px;
+}
+footer{
+    background: #2876ec;
+    color: #fdfdfd;
+}
